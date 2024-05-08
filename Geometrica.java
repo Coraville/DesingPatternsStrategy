@@ -6,6 +6,6 @@ public class Geometrica implements ICalcMedia {
 
     @Override
     public String situacao(double media) {
-        return media > 5 ? "aprovado" : "reprovado";
+        return media > 6 ? "aprovado" : "reprovado";
     }
 }
